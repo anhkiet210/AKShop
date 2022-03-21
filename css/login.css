@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wraper{
+    background-image: url(./../img/bg_login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+    -webkit-backgroud-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    transition: ease .5s;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.shared h3{
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.shared label{
+    color: #537b35;
+}
+.show{
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.hide{
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+.wraper-login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    transition: ease .5s;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wraper-login .login{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    box-shadow: 0px 0px 17px 2px #b4b4b4;
+    position: absolute;
+    min-height: 100px;
+    max-width: 430px;
+}
+
+.btn-show{
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 2px 20px;
+    border: 2px solid #fff;
+    display: inline;
+}
+
+.btn-show:hover{
+    color: #537b35;
+    border: 2px solid #537b35;
+}
+
+.shared input[type="text"], 
+.shared input[type="email"], 
+.shared input[type="password"],
+.shared input[type="tel"]{
+    width: 84%;
+    padding: 15px 10px 15px;
+    font-size: 14px;
+    background: transparent;
+    border: 2px solid #537b35;
+    outline: none;
+    margin-bottom: 26px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+.shared input[type="text"]:hover, 
+.shared input[type="text"]:focus, 
+.shared input[type="email"]:hover, 
+.shared input[type="email"]:focus, 
+.shared input[type="password"]:hover,
+.shared input[type="password"]:focus,
+.shared input[type="tel"]:hover,
+.shared input[type="tel"]:focus{
+    border: 2px solid #fff;
+}
+.shared input[type="text"]::placeholder, 
+.shared input[type="email"]::placeholder,
+.shared input[type="password"]::placeholder,
+.shared input[type="tel"]::placeholder{
+    color: #fff;
+}
+.shared #dangnhap,
+.shared #dangky{
+    font-size: 16px;
+    padding: 10px 65px;
+    background-color: #537b35;
+    color: #FFF;
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    float: none;
+    cursor: pointer;
+}
+
+.shared #dangnhap:hover, 
+.shared #dangnhap:focus,
+.shared #dangky:hover,
+.shared #dangky:focus{
+    color: #537b35;
+    background-color: #fff;
+}
+
+.wraper-login .login p{
+    margin-top: 40px;
+    color: #fff;
+}
+
+.wraper-register{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: ease .5s;
+    /* visibility: hidden;
+    opacity: 0; */
+}
+
+.wraper-register .register{
+    min-height: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    box-shadow: 0px 0px 17px 2px #b4b4b4;
+    position: absolute;
+    width: 500px;
+}
+
+.wraper-register .register .btn-close{
+    outline: none;
+    background-color: transparent;
+    top: -5px;
+    border: none;
+    right: 10px;
+    font-size: 28px;
+    position: absolute;
+    padding: 0;
+    color: #fff;
+}
+.login_error {
+    color: #ff4d4d;
+    padding-top: 10px;
+    font-weight: bold;
+}

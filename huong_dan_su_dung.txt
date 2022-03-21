@@ -1,0 +1,19 @@
+tài khoản admin: 
+email: anhkietk053@gmail.com
+password: anhkiet
+
+tài khoản nhân viên:
+email: nguyenvanteo@gmail.com
+password: 123456
+
+tài khoản khách hàng: 
+email: nguyenvanb@gmail.com
+password: 12345678
+
+Thư mục chứa code xử lý phần quản lý: admin
+Thư mục chứa code xử lý phần đặt hàng: khachhang
+
+Tài khoản login database:
+username:root
+password: 
+
